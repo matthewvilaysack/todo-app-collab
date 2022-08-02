@@ -1,0 +1,19 @@
+{
+	"name": "todo-app-collab",
+	"version": "1.0.0",
+	"description": "",
+	"main": "todo.js",
+	"scripts": {
+		"sass": "sass --watch --style expanded scss/style.scss css/style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/matthewv ilaysack/todo-app-collab.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/matthewvilaysack/todo-app-collab/issues"
+	},
+	"homepage": "https://github.com/matthewvilaysack/todo-app-collab#readme"
+}

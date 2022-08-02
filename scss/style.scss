@@ -1,0 +1,35 @@
+:root {
+	--color-primary: #7c3e66;
+	--color-secondary: #f2ebe9;
+	--color-light-blue: #a5becc;
+	--color-blue: #243a73;
+
+	--color-grey-light: #faf9f9;
+	--color-grey-dark: #333;
+
+	--shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+	--shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+	--line: 1px solid var(--color-grey-light);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	color: var(--color-grey-dark-2);
+	background-image: linear-gradient(to right bottom, var(--color-secondary), var(--color-blue));
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
