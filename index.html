@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Todoe App</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TODOE</h1>
+    </div>
+    <main>
+        <section>
+            <div class="app">
+                <h2>Tasks</h2>
+                <canvas id="line" width="200" height="5"></canvas>
+                <form  id="addtaskform">
+                    <label for="new-task">Add a Task</label>
+                    <input placeholder="add a new task here" name="new-task" type="text" id="addtaskinput" autcomplete="on">
+                    <input type="submit" value="Add" onClick="addTaskFunction(this.form)">
+                </form>
+                <div class="tasklist">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="todo.js">
+</script>
+</html>
